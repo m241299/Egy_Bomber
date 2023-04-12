@@ -22,7 +22,7 @@ def Vodafone():
     leno = len(number)
     if leno == 11 or leno == 12:
 
-        url = 'https://www.vodafone.com.eg/userAcc/forgotPass'
+        url = 'https://web.vodafone.com.eg/auth/realms/vf-realm/login-actions/reset-credentials?client_id=website&tab_id=ZjX6QmtH5xU&kc_locale=ar'
         header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'}
         data = {
